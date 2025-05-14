@@ -1,11 +1,10 @@
-let ageEnfant, agePere, ageMere, ageGrandPere, ageOncle;
-// Ecrivez votre code ici
-
-// Ne pas modifier le code ci-dessous
-module.exports = {
-  ageEnfant,
-  agePere,
-  ageMere,
-  ageGrandPere,
-  ageOncle,
-};
+let ageEnfant=12;
+let agePere= ageEnfant*2;
+let ageMere= agePere-5;
+let ageGranpere=(ageMere*2)+(ageEnfant/2);
+let ageOncle =agePere+10;
+console.log(ageEnfant);
+console.log(agePere);
+console.log(ageMere);
+console.log(ageGranpere);
+console.log(ageOncle);
