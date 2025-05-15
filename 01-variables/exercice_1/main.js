@@ -1,1 +1,2 @@
-console.log("Hello World !");
+//Ce programme affiche un message Hello World
+console.log("Hello World");
