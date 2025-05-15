@@ -1,11 +1,11 @@
 let salaireMensuel=500,
-  loyer= (500 * 30) / 100,
-  nourriture= (500 * 20) / 100,
-  transport= (500 * 10) / 100,
+  loyer= (salaireMensuel * 30) / 100,
+  nourriture= (salaireMensuel * 20) / 100,
+  transport= (salaireMensuel * 10) / 100,
   autresDepenses= 50+25,
   totalDepenses= loyer + nourriture + transport + autresDepenses,
   reste= salaireMensuel - totalDepenses;
-  loisir= (500 * 15) / 100,
+  loisir= (salaireMensuel * 15) / 100,
   console.log(totalDepenses)
   totalDepenses= loyer + nourriture + transport + autresDepenses+ loisir,
   reste= salaireMensuel - totalDepenses;
