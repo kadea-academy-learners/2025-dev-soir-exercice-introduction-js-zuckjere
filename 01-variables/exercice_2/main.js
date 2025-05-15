@@ -1,2 +1,2 @@
-//Variable Kadea
-let academy = "Kadea";
+let nom = "Kadea";
+console.log(nom);

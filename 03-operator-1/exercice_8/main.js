@@ -16,6 +16,21 @@ if (reste>=100) {
 let loisirs=salaireMensuel*1.5;
   totalDepenses+=loisirs;
   reste=salaireMensuel-totalDepenses;
+
+  totalDepenses=(totalDepenses*100)/salaireMensuel;
+  reste=(reste*100)/salaireMensuel;
+  loisirs=(loisirs*100)/salaireMensuel;
+  loyer=(loyer*100)/salaireMensuel;
+  nourriture=(nourriture*100)/salaireMensuel;
+  transport=(transport*100)/salaireMensuel;
+
+  console.log("Dépenses totales sont de : " + totalDepenses);
+  console.log("Reste est de : " + reste);
+  console.log("Dépenses de loisirs sont de : " + loisirs);
+  console.log("Dépenses de loyer sont de : " + loyer);
+  console.log("Dépenses de nourriture sont de : " + nourriture);
+  console.log("Dépenses de transport sont de : " + transport);
+  console.log("Autres dépenses sont de : " + autresDepenses);
   
 // Ne pas modifier le code ci-dessous
 module.exports = {
