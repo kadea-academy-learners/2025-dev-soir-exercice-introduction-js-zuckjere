@@ -3,7 +3,6 @@ let ageEnfant, agePere, ageMere, ageGrandPere, ageOncle;
 ageEnfant = 20;
 agePere = ageEnfant*2;
 ageMere = agePere-5;
-console.log(ageMere);
 ageGrandPere = (ageMere*2)+(ageEnfant/2);
 ageOncle = agePere+10;
 console.log(agePere,ageMere,ageGrandPere,ageOncle);
