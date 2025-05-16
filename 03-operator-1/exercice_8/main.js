@@ -1,17 +1,20 @@
 let salaireMensuel=500,
-  loyer= (salaireMensuel * 30) / 100,
-  nourriture= (salaireMensuel * 20) / 100,
-  transport= (salaireMensuel * 10) / 100,
-  autresDepenses= 50+25,
+  loyer,
+  nourriture,
+  transport,
+  autresDepenses= 50,
   totalDepenses= loyer + nourriture + transport + autresDepenses,
-  reste= salaireMensuel - totalDepenses;
-  loisir= (salaireMensuel * 15) / 100,
-  console.log(totalDepenses)
-  totalDepenses= loyer + nourriture + transport + autresDepenses+ loisir,
-  reste= salaireMensuel - totalDepenses;
-  console.log(totalDepenses)
+  reste= salaireMensuel - totalDepenses;  
 // Ecrivez votre code ici
-
+  loyer= (salaireMensuel * 30) / 100;
+  nourriture= (salaireMensuel * 20) / 100;
+  transport= (salaireMensuel * 10) / 100;
+  autresDepenses+=25;
+  console.log(loyer, nourriture, transport, autresDepenses)
+  totalDepenses= loyer + nourriture + transport + autresDepenses;
+  console.log(totalDepenses)
+  reste= salaireMensuel - totalDepenses;
+  
 // Ne pas modifier le code ci-dessous
 module.exports = {
   salaireMensuel,
