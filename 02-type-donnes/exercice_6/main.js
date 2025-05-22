@@ -1,7 +1,7 @@
-let age;
-let nom;
-let estConnecte;
-let valeurNulle;
+let age =30 ;
+let nom = kadea;
+let estConnecte = true
+let valeurNulle = null;
 let inconnue;
 
 // Les lignes ne doivent pas être modifiées
