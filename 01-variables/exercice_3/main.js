@@ -1,3 +1,2 @@
-const VIlLE = "Kinshasa";
-
-console.log("kinshasa");
+const VILLE = "Kinshasa";
+console.log(VILLE);
