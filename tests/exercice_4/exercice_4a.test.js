@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const filePath = path.join(__dirname, "../01-variables/exercice_4/main.js");
+const filePath = path.join(__dirname, "../../01-variables/exercice_4/main.js");
 
 test("Exercice 4 : les variables 'a' et 'b' sont déclarées avec des valeurs 5 et 8", () => {
   const content = fs.readFileSync(filePath, "utf-8");

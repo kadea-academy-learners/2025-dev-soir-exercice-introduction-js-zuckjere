@@ -3,7 +3,7 @@ const path = require("path");
 
 test("Exercice 1c : le commentaire est sur la première ligne", () => {
   const content = fs.readFileSync(
-    path.join(__dirname, "../01-variables/exercice_1/main.js"),
+    path.join(__dirname, "../../01-variables/exercice_1/main.js"),
     "utf-8"
   );
 
