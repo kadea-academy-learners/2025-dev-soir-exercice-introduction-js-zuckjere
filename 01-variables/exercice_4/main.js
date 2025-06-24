@@ -1,6 +1,6 @@
-const a = 5
-const b = 8
-
-console.log(a + b)
+let a=5;
+let b=8;
+let add=a + b ;
+console.log(add);
 
 

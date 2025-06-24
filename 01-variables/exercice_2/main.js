@@ -1,2 +1,5 @@
-let nom = "Kadea"
-console.log(nom)
+let nom;
+let nom= "Kadea";
+console.log(nom);
+
+
