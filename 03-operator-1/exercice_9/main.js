@@ -1,22 +1,19 @@
 let paul, marie, eric, clair, madameMukuna, joseph, sarah;
 // Ecrivez votre code ici
-const heritage = {
-  maison : 60000000,
-  terrains : 40000000,
-  liquidités : 20000000
-}
-const TotalHeritage = heritage.maison + heritage.terrains + heritage.liquidités;
-const Premièrecatégorie = TotalHeritage * 0.75;
-const Deuxièmecatégorie = TotalHeritage * 0.25;
-paul = Premièrecatégorie / 3;
-marie = Premièrecatégorie / 3;
-alain = Premièrecatégorie / 3;
-eric = alain / 2;
-clair = alain / 2;
-madameMukuna = Deuxièmecatégorie / 3;
-joseph = Deuxièmecatégorie / 3;
-sarah = Deuxièmecatégorie / 3;
-  // Ne pas modifier le code ci-dessous
+let patrimoin= 60000000+40000000+20000000;
+let partenfant= patrimoin*75/100;
+let partfamille= patrimoin*25/100;
+paul= partenfant*(1/3);
+marie= partenfant*(1/3);
+alain= partenfant*(1/3);
+eric= alain*(1/2);
+clair= alain*(1/2);
+madameMukuna= partfamille*(1/3);
+joseph= partfamille*(1/3);
+sarah= partfamille*(1/3);
+console.log(paul,marie,eric,clair,madameMukuna,joseph,sarah);
+
+// Ne pas modifier le code ci-dessous
 module.exports = {
   paul,
   marie,
