@@ -1,8 +1,6 @@
-let a = 5;
-let b = 8;
-let somme = a + b;
-console.log(somme);
+const a = 5
+const b = 8
 
-if (typeof module !== "undefined") {
-  module.exports = somme;
-}
+console.log(a + b)
+
+
